@@ -1,10 +1,10 @@
 import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+public class ListExample {
 
     //Collection - List, Set, Map
     public static void main(String[] args) {
@@ -13,6 +13,10 @@ public class Main {
         List<String> fruits2 = new ArrayList<>();
         fruits2.add("Lemon");
 
+        fruits.add("Apple");
+        fruits.add("Apple");
+        fruits.add("Apple");
+        fruits.add("Apple");
         fruits.add("Apple");
         fruits.add("Banana");
         fruits.add("Strawberry"); //Listimizga malumot qoshish
@@ -48,5 +52,13 @@ public class Main {
 //            System.out.println("Fruit: " + fruits.get(i));
 //        }
 
+
+        //BigO ()
+        List<String> foods = new LinkedList<>();
+        foods.add("Pizza");
+        foods.add("Barbeque Burger");
+
+        //ArrayList bilan methodlari bir xil
+        // foods.size();
     }
 }
