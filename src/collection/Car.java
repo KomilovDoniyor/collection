@@ -1,3 +1,5 @@
+package collection;
+
 public class Car {
     private int year;
     private String name;

@@ -1,3 +1,5 @@
+package collection;
+
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -15,7 +17,7 @@ public class SetExample {
 
         //Collection methodlari hammasi bir xil ishlaydi
         for (String car : cars) {
-            System.out.println("Car: " + car);
+            System.out.println("collection.Car: " + car);
         }
         System.out.println("=======================");
 
